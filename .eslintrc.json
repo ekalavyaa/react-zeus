@@ -1,0 +1,23 @@
+{
+    "extends": [
+        "standard",
+        "standard-react"
+    ],
+    "rules": {
+        "semi": [
+            2,
+            "always"
+        ],
+        "space-before-function-paren": [
+            "error",
+            "never"
+        ],
+        "indent": [
+            "error",
+            2,
+            {
+                "SwitchCase": 1
+            }
+        ]
+    }
+}
